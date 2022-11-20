@@ -94,3 +94,12 @@ nav a:hover {
 .nav-toggle:checked ~ nav {
   display: block;
 }
+.about {
+  background-image: url(images/art-back-b.jpg);
+  font-size: 23px;
+  color: beige;
+  width: 85%;
+  margin-left: 100px;
+  padding: 100px;
+  padding-bottom: 250px;
+}
