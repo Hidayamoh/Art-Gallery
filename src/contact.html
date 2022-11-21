@@ -17,12 +17,58 @@
           <li><a href="about.html">about us</a></li>
           <li><a href="string.html">string arts</a></li>
           <li><a href="paintings.html">paintings</a></li>
-          <li><a href="">contact us</a></li>
+          <li><a href="contact.html">contact us</a></li>
         </ul>
       </nav>
       <label for="nav-toggle" class="nav-toggle-label">
         <span></span>
       </label>
     </header>
+    <main>
+      <div class="form">
+        <h1>Registeration form</h1>
+        <form action="/action_page.php">
+          <fieldset>
+            <legend>personal info:</legend>
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" value="" /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" value="" /><br />
+            <label for="gender">gender:</label>
+            <select id="gender" name="gender">
+              <option value="none"></option>
+              <option value="male">male</option>
+              <option value="female">female</option></select
+            ><br />
+            <label for="email">email:</label><br />
+            <input type="text" id="email" name="email" value="" /><br />
+            <label for="pass_word">pass_word:</label><br />
+            <input type="text" id="pass_word" name="pass_word" value="" /><br />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Address:</legend>
+            <label for="Country">Country:</label><br />
+            <input type="text" id="country" name="country" value="" /><br />
+            <label for="city">city:</label><br />
+            <input type="text" id="city" name="city" value="" /><br />
+            <label for="Street">Street:</label><br />
+            <input type="text" id="Street" name="Street" value="" /><br />
+          </fieldset>
+          <br />
+          <textarea name="comment" style="width: 305px; height: 100px">your Comment here: </textarea><br />
+          <form>
+            <input type="radio" id="notification" name="notification" value="notification" />
+            <label for="notification">you can send me emails and notifications</label><br />
+            <input type="radio" id="no-notification" name="no-notification" value="no-notification" />
+            <label for="no-notification">Do not send me emails and notifications</label><br />
+          </form>
+          <br />
+          <div class="submit"><input type="submit" value="Submit" /></div>
+        </form>
+      </div>
+    </main>
+    <div class="cont-img"><img src="images/art-quote-big.png" alt="if some of this art is nit for you, thats fine. art appretiation is a subjective matter, and we each bring our own experience, knowledge and teste to the party." /></div>
+    <footer><p>&#169; copyright</p></footer>
   </body>
 </html>
